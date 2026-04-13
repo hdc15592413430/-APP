@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+.expo
+.expo-shared
+node_modules
+dist
+coverage
+__pycache__
+.pytest_cache
+.venv
+*.pyc
+*.pyo
+*.pyd
+.env
+

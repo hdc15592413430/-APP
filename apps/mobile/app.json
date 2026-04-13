@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "志愿辅助顾问",
+    "slug": "gaokao-volunteer-mobile",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#F7F0E8"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F7F0E8"
+      }
+    }
+  }
+}
+

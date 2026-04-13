@@ -1,0 +1,10 @@
+{
+  "name": "gaokao-volunteer-assistant",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "mobile": "npm --prefix apps/mobile start",
+    "api": "python -m uvicorn run:app --reload --app-dir services/api"
+  }
+}
+

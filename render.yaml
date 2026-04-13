@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: gaokao-volunteer-api
+    runtime: docker
+    rootDir: services/api
+    dockerContext: ./services/api
+    dockerfilePath: ./services/api/Dockerfile
+    healthCheckPath: /health
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: PUBLIC_BASE_URL
+        sync: false
+      - key: STYLE_MODE
+        value: mock
+      - key: CORS_ALLOW_ORIGINS
+        value: "*"
+      - key: CORS_ALLOW_CREDENTIALS
+        value: "false"
+      - key: ADMISSIONS_DATA_FILE
+        sync: false
