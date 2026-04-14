@@ -3,8 +3,7 @@ services:
     name: gaokao-volunteer-api
     runtime: docker
     rootDir: services/api
-    dockerContext: ./services/api
-    dockerfilePath: ./services/api/Dockerfile
+    dockerfilePath: ./Dockerfile
     healthCheckPath: /health
     envVars:
       - key: APP_ENV
